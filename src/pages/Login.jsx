@@ -15,8 +15,6 @@ const Login = (props) => {
   const referer = (props.location.state && props.location.state.referer) || '/';
 
   const postLogin = () => {
-    console.log('email: ', email);
-    console.log('password: ', password);
     axios.post('http://localhost:3001/authenticate',
       { email, password },
       { headers: { 'Content-Type': 'application/json' } },

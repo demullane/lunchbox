@@ -8,3 +8,9 @@ export {
   AuthContext,
   useAuth,
 }
+
+// useAuth =
+// {
+//   authTokens: 'token string',
+//   setAuthTokens: func
+// }
